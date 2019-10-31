@@ -1,0 +1,16 @@
+J6502ASM Changelog
+
+v0.1a
+
+Initial release
+
+v0.11a
+
+Added: Command line option to remove leading null bytes from output (for use with .ORG directive).
+Fixed: Output containing trailing null bytes when using .ORG directive.
+
+v0.11b
+
+Fixed: Replaced several bitwise operations in conditionals with logical ones.
+Fixed: Proper package structure is now used instead of default package.
+Fixed: Explicitly free file output stream in app to avoid it being treated as a resource leak.
